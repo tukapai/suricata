@@ -4,28 +4,33 @@ Suricata
 Introduction
 ------------
 
-Suricata is a network IDS, IPS and NSM engine.
+Suricataはネットワーク型 IDS, IPS, NSM エンジンです。
 
 
-Installation
+インストール
 ------------
 
+インストール方法については以下を参照してください。  
 https://redmine.openinfosecfoundation.org/projects/suricata/wiki/Suricata_Installation
 
-User Guide
+ユーザーガイド
 ----------
 
-You can follow the [Suricata user guide](https://suricata.readthedocs.io/en/latest/) to get started.
+ユーザーガイドに関しては [Suricata user guide](https://suricata.readthedocs.io/en/latest/)をご参照ください。  
 
-Our deprecated (but still useful) user guide is also [available](https://redmine.openinfosecfoundation.org/projects/suricata/wiki/Suricata_User_Guide).
+廃止された（まだ有用性のある）ユーザーガイドについてはこちらを確認してください。   [available](https://redmine.openinfosecfoundation.org/projects/suricata/wiki/Suricata_User_Guide).
 
 
-Contributing
+コントリビュート
 ------------
 
-We're happily taking patches and other contributions. Please see https://redmine.openinfosecfoundation.org/projects/suricata/wiki/Contributing for how to get started.
+私たちは喜んでパッチの提供やその他の貢献をしています。  
+詳細はこちらをご確認ください。 https://redmine.openinfosecfoundation.org/projects/suricata/wiki/Contributing
 
-Suricata is a complex piece of software dealing with mostly untrusted input. Mishandling this input will have serious consequences:
+
+
+Suricataは、ほとんどが信頼できない入力を扱う複雑なソフトウェアです。  
+この入力を誤って処理すると深刻な結果になります。
 
 * in IPS mode a crash may knock a network offline;
 * in passive mode a compromise of the IDS may lead to loss of critical and confidential data;
